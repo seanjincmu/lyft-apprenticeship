@@ -4,8 +4,8 @@ Objective: If you don’t have a current code sample you can share, please write
 
 Testing: To see expected behavior you can test against a current working example with the command: curl -X POST https://lyft-interview-test.herokuapp.com/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
 
-MUST INSTALL Flask before running this code: python3 -m pip install Flask
+MUST INSTALL Flask before running this code (replace python3 with whatever command you are using for python): python3 -m pip install Flask
 
-Running local server (replace python3 with whatever command you are using): python3 lyft.py
+Running local server (replace python3 with whatever command you are using for python): python3 lyft.py
 
 Command for testing on the local server: curl -X POST http://localhost:5000/test --data '{"string_to_cut": "iamyourlyftdriver"}' -H 'Content-Type: application/json'
